@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+        <title>GiphyAPI</title>
+        <!-- <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <!-- <link rel="stylesheet" href="#"> -->
+    <style>
+        body{
+            background-color: rgb(187, 245, 255);
+        }
+
+        #animal-form{
+            text-align: right;
+        }
+        
+        .animal{
+            width: 80px;
+            height: 30px;
+            margin: 0 5px 10px 5px;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+    </style>
+    </head>
+    <body>
+
+        <div id="animal-buttons"></div>
+        <br>
+        <br>
+        <form id = "animal-form">
+            <label for = "animal-input"> Add an Animal</label><br>
+            <input type= "text" id = "animal-input"><br>
+            <input id = "add-animal" type = "submit" value = "Add an Animal">
+        </form>
+    
+        <!-- Animal Giphy will get dumped here -->
+        <div id="animal-view"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type = "text/javascript" src="giphy.js"></script>
+    </body>
+</html>
