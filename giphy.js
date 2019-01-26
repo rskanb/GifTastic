@@ -27,7 +27,7 @@ $(document).on("click", "#add-animal", function(event){
 function displayAnimalGif(){
     var animal = $(this).attr("data-button");
     console.log(animal);
-    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=uYCMjk76u3B2GoFxJmbKTXHvKjQJmfV6&limit=10";
+    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key={}&limit=10";
 
     $.ajax({
         url: queryUrl,
