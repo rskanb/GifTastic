@@ -5,6 +5,8 @@ Generating Giphy images using Giphy API when clicking button.
 
 *Also we can add Button using From input which can be used for AJAX call and generate GIPHY images
 
+*Please get your own API key and update in .js file for GifTastic
+
 ##### Initially Loading of the Page
 
 ![Initially Loaing of the page](snap/initial.png)
